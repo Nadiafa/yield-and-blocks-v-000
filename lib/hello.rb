@@ -2,10 +2,8 @@ name=["Tim", "Tom", "Jim"]
 
 def hi_t(array)
   i=0 
-  while i<array.length 
-   if array[i].start_with?("T")
+  while i<array.length && array[i].start_with?("T")
     puts "Hi #{array[i]}"
-   end
     i+=1
   end
 
