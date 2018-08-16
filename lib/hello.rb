@@ -1,6 +1,6 @@
 name=["Tim", "Tom", "Jim"]
 
-def hello_t(array)
+def hi_t(array)
   i=0 
   while i<array.length && i.start_with?("T")
     puts "Hi #{i}"
@@ -9,7 +9,7 @@ def hello_t(array)
 
 end
 
-hello_t(name)
+hi_t(name)
 
 puts "-----------------------------------------------"
 
